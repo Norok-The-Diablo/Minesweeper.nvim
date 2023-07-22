@@ -1,5 +1,5 @@
 if !has('nvim-0.7')
-    echoerr "[nvimesweeper] Neovim version 0.7 or above is required!"
+    echoerr "[minesweeper] Neovim version 0.7 or above is required!"
 endif
 
 if exists('g:loaded_nvimesweeper')
@@ -9,7 +9,7 @@ endif
 let s:save_cpo = &cpoptions
 set cpoptions&vim
 
-command! -nargs=* -bar minesweeper
+command! -nargs=* -bar Minesweeper
             \ lua require("nvimesweeper").play_cmd(<q-args>)
 
 function! s:DefineHighlights() abort
