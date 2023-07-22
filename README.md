@@ -1,5 +1,3 @@
-![Banner Image](./media/nvimesweeper.png)
-
 ![Screenshot](./media/screenshot.png)
 
 Play Minesweeper in Neovim: because if Emacs has taught us anything, it's that
