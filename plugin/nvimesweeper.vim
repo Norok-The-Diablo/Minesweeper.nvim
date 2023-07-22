@@ -1,8 +1,7 @@
 if !has('nvim-0.7')
     echoerr "[nvimesweeper] Neovim version 0.7 or above is required!"
     if has('nvim-0.5')
-        echomsg "Note: a 'nvim-0.5' compatibility git branch exists if you " ..
-              \ "still want to play, but it is not maintained."
+        echomsg "Note: 'nvim-0.5' is not compatible"
     endif
     finish
 endif
@@ -14,7 +13,7 @@ endif
 let s:save_cpo = &cpoptions
 set cpoptions&vim
 
-command! -nargs=* -bar Nvimesweeper
+command! -nargs=* -bar minesweeper
             \ lua require("nvimesweeper").play_cmd(<q-args>)
 
 function! s:DefineHighlights() abort
