@@ -16,4 +16,4 @@ Install it using your favourite package manager like any other plugin. For insta
 - Press `<CR>`, `x` or `<LeftMouse>` to reveal a square; just try not to step on
   a mine!
 
-Run `:help nvimesweeper` for more details.
+Run `:help minesweeper.nvim` for more details.
