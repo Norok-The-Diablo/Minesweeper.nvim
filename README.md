@@ -6,14 +6,10 @@ Play Minesweeper in Neovim: because if Emacs has taught us anything, it's that
 text editors are for gaming!
 
 Requires Neovim version 0.7 or above.
-
-_Note that an `nvim-0.5` branch exists for compatibility with Nvim v0.5+, but it
-is no longer maintained._
-
 ## How to play
 
-Install it using your favourite package manager like any other plugin, then run
-`:Nvimesweeper` and pray that it works properly, I guess.
+Install it using your favourite package manager like any other plugin. For instance '''Plug 'Norok-The-Diablo/Minesweeper.nvim' then run
+`:minesweeper` and pray that it works properly, I guess.
 
 - Press `!` to flag a square.
 - Press `?` to mark a square for later.
