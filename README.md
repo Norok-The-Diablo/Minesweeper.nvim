@@ -8,7 +8,7 @@ text editors are for gaming!
 Requires Neovim version 0.7 or above.
 ## How to play
 
-Install it using your favourite package manager like any other plugin. For instance '''Plug 'Norok-The-Diablo/Minesweeper.nvim' then run
+Install it using your favourite package manager like any other plugin. For instance ```Plug 'Norok-The-Diablo/Minesweeper.nvim'``` then run
 `:minesweeper` and pray that it works properly, I guess.
 
 - Press `!` to flag a square.
