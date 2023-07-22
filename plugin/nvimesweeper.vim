@@ -1,9 +1,5 @@
 if !has('nvim-0.7')
     echoerr "[nvimesweeper] Neovim version 0.7 or above is required!"
-    if has('nvim-0.5')
-        echomsg "Note: 'nvim-0.5' is not compatible"
-    endif
-    finish
 endif
 
 if exists('g:loaded_nvimesweeper')
